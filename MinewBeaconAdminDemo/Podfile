@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MinewBeaconAdminSDKDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MinewBeaconAdminSDKDemo
+
+pod 'MinewBeaconAdmin'
+
+  target 'MinewBeaconAdminSDKDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MinewBeaconAdminSDKDemoUITests' do
+    # Pods for testing
+  end
+
+end
