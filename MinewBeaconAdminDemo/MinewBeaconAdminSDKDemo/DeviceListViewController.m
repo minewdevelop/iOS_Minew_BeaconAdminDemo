@@ -21,6 +21,12 @@
     NSDateFormatter *_dateFormatter;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    
+    [self refresh];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     _dateFormatter = [[NSDateFormatter alloc]init];
